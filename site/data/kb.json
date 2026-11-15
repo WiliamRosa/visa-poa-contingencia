@@ -1,0 +1,306 @@
+{
+  "versao": "0.1-rascunho",
+  "status": "Conteúdo em validação pela Vigilância Sanitária de Poá. Dosagens e orientações devem ser conferidas antes da publicação oficial.",
+  "temas": {
+    "agua": "Água para consumo",
+    "alimentos": "Alimentos",
+    "limpeza": "Limpeza depois da enchente",
+    "saude": "Saúde e doenças",
+    "medicamentos": "Medicamentos",
+    "abrigos": "Abrigos",
+    "doacoes": "Doações",
+    "trabalho": "Trabalhadores e voluntários",
+    "estabelecimentos": "Comércios e serviços",
+    "contato": "Emergência e contato"
+  },
+  "itens": [
+    {
+      "id": "agua-beber",
+      "tema": "agua",
+      "pergunta": "Como deixar a água segura para beber depois da enchente?",
+      "termos": ["agua", "beber", "potavel", "tratar", "ferver", "gotas", "hipoclorito", "filtrar", "consumo"],
+      "resposta": "Se a água da sua casa pode ter sido contaminada, trate antes de beber ou cozinhar:\n• Filtre ou coe a água num pano limpo, se estiver turva.\n• Ferva por 1 minuto depois que levantar fervura, ou\n• Coloque 2 gotas de hipoclorito de sódio 2,5% para cada 1 litro de água e espere 30 minutos antes de usar.\nGuarde a água tratada em recipiente limpo e tampado.",
+      "fonte": "Ministério da Saúde, Guia de preparação e resposta à emergência em saúde pública por inundação"
+    },
+    {
+      "id": "agua-sanitaria-beber",
+      "tema": "agua",
+      "pergunta": "Posso usar água sanitária para tratar a água de beber?",
+      "termos": ["agua sanitaria", "candida", "cloro", "beber", "tratar", "perfume"],
+      "resposta": "Só use água sanitária que tenha registro na Anvisa e cuja composição seja apenas hipoclorito de sódio e água, sem perfume, corante ou outros aditivos. Produtos com cheiro ou alvejantes com outras substâncias não servem para tratar água de beber. Quando houver, prefira o hipoclorito de sódio 2,5% distribuído pela rede de saúde.",
+      "fonte": "Ministério da Saúde; Anvisa"
+    },
+    {
+      "id": "hipoclorito-onde",
+      "tema": "agua",
+      "pergunta": "Onde consigo hipoclorito de sódio?",
+      "termos": ["hipoclorito", "onde", "conseguir", "pegar", "ubs", "distribuicao", "frasco"],
+      "resposta": "Em situações de emergência, o hipoclorito de sódio 2,5% costuma ser distribuído pela rede de saúde. Procure a Unidade Básica de Saúde (UBS) mais próxima para saber se há distribuição no momento. [Confirmar com a Secretaria de Saúde de Poá os pontos de distribuição.]",
+      "fonte": "Vigilância Sanitária de Poá"
+    },
+    {
+      "id": "caixa-dagua",
+      "tema": "agua",
+      "pergunta": "Como limpar a caixa d'água depois da enchente?",
+      "termos": ["caixa", "caixa dagua", "reservatorio", "limpar", "lavar", "desinfetar", "cisterna"],
+      "resposta": "1. Feche a entrada de água e esvazie a caixa, guardando um pouco no fundo para a limpeza.\n2. Esfregue paredes e fundo com escova ou pano limpo, sem sabão. Retire a sujeira e enxágue.\n3. Encha a caixa e adicione 1 litro de água sanitária para cada 1.000 litros de água. Deixe agir por 2 horas.\n4. Esvazie a caixa abrindo as torneiras da casa, para desinfetar também os canos.\n5. Encha novamente e mantenha a caixa bem tampada.",
+      "fonte": "Ministério da Saúde, orientações de limpeza de reservatórios"
+    },
+    {
+      "id": "agua-cor-cheiro",
+      "tema": "agua",
+      "pergunta": "A água da torneira está com cor ou cheiro diferente. O que faço?",
+      "termos": ["torneira", "cor", "cheiro", "turva", "barrenta", "estranha", "gosto", "suja"],
+      "resposta": "Não beba nem use para cozinhar. Avise a concessionária de abastecimento de água e a Vigilância Sanitária. Enquanto isso, use água mineral lacrada ou trate a água antes de consumir (veja \"Como deixar a água segura para beber\").",
+      "fonte": "Vigilância Sanitária de Poá"
+    },
+    {
+      "id": "caminhao-pipa",
+      "tema": "agua",
+      "pergunta": "Posso confiar na água de caminhão-pipa?",
+      "termos": ["caminhao", "pipa", "carro pipa", "abastecimento", "entrega", "agua"],
+      "resposta": "Receba água apenas de caminhão-pipa enviado pela Prefeitura ou pela concessionária. Guarde a água em recipientes limpos e tampados. Se tiver dúvida sobre a origem, trate a água antes de beber. A Vigilância Sanitária fiscaliza os transportadores de água durante a emergência.",
+      "fonte": "Plano de Contingência Regional DRS I (SES-SP)"
+    },
+    {
+      "id": "alimentos-enchente",
+      "tema": "alimentos",
+      "pergunta": "Os alimentos que tiveram contato com a água da enchente podem ser consumidos?",
+      "termos": ["alimento", "comida", "molhou", "enchente", "agua", "jogar fora", "descartar", "contato"],
+      "resposta": "Não. Jogue fora todo alimento que teve contato com a água da enchente: alimentos frescos, em sacos, caixas, potes plásticos ou embalagens abertas. A exceção são latas e embalagens totalmente fechadas e sem danos: lave, desinfete com solução de água sanitária e enxágue antes de abrir. Latas amassadas, estufadas ou enferrujadas devem ser descartadas.",
+      "fonte": "Ministério da Saúde, Guia de preparação e resposta à emergência em saúde pública por inundação"
+    },
+    {
+      "id": "geladeira-sem-energia",
+      "tema": "alimentos",
+      "pergunta": "A geladeira ficou sem energia. O que faço com os alimentos?",
+      "termos": ["geladeira", "energia", "luz", "freezer", "estragou", "carne", "leite", "queda"],
+      "resposta": "Mantenha a porta fechada o máximo possível. Depois que a energia voltar, descarte carnes, peixes, frango, leite, derivados, ovos e comida pronta que não estiverem mais gelados ou que tenham cheiro, cor ou textura diferentes. Não prove para testar. Na dúvida, jogue fora.",
+      "fonte": "Anvisa, orientações de boas práticas ao consumidor"
+    },
+    {
+      "id": "frutas-verduras",
+      "tema": "alimentos",
+      "pergunta": "Como higienizar frutas, verduras e legumes?",
+      "termos": ["fruta", "verdura", "legume", "higienizar", "lavar", "salada", "hortalica"],
+      "resposta": "Lave em água corrente tratada. Depois, deixe de molho por 10 minutos numa solução de 1 colher de sopa de água sanitária própria para alimentos em 1 litro de água, e enxágue em água tratada. Se a fruta ou verdura teve contato com a água da enchente, não consuma: descarte.",
+      "fonte": "Anvisa, cartilha de boas práticas"
+    },
+    {
+      "id": "compra-alimentos",
+      "tema": "alimentos",
+      "pergunta": "Vi alimentos molhados ou sem procedência sendo vendidos. O que faço?",
+      "termos": ["venda", "vendendo", "vender", "comercio", "feira", "irregular", "molhado", "denunciar", "denuncia", "procedencia", "comida", "comida estragada", "estragada", "vencido"],
+      "resposta": "Não compre. Alimentos atingidos pela enchente ou sem procedência podem causar doenças. Denuncie à Vigilância Sanitária informando o endereço e o que está sendo vendido.",
+      "fonte": "Vigilância Sanitária de Poá"
+    },
+    {
+      "id": "limpar-casa",
+      "tema": "limpeza",
+      "pergunta": "Como limpar a casa depois da enchente?",
+      "termos": ["limpar", "limpeza", "casa", "lama", "chao", "parede", "desinfetar", "faxina"],
+      "resposta": "1. Desligue a energia antes de entrar, se a água atingiu tomadas.\n2. Retire a lama e lave pisos, paredes e móveis com água e sabão.\n3. Desinfete com 1 copo (200 ml) de água sanitária para cada balde de 20 litros de água. Deixe agir por 30 minutos e enxágue.\n4. Mantenha portas e janelas abertas para ventilar.\nUse botas e luvas de borracha durante toda a limpeza.",
+      "fonte": "Ministério da Saúde, orientações para limpeza pós-enchente"
+    },
+    {
+      "id": "protecao-limpeza",
+      "tema": "limpeza",
+      "pergunta": "Que cuidados devo ter durante a limpeza?",
+      "termos": ["luva", "bota", "protecao", "epi", "misturar", "mistura", "produto", "outro produto", "agua sanitaria", "gas toxico", "cuidado", "seguranca"],
+      "resposta": "• Use botas e luvas de borracha. Se não tiver, use sacos plásticos duplos amarrados nas mãos e nos pés.\n• Nunca misture água sanitária com outros produtos de limpeza, como amoníaco, desinfetantes ou removedores: a mistura libera gases tóxicos.\n• Mantenha o ambiente ventilado.\n• Lave bem as mãos ao terminar.\n• Cuidado com objetos cortantes escondidos na lama.",
+      "fonte": "Ministério da Saúde"
+    },
+    {
+      "id": "moveis-colchoes",
+      "tema": "limpeza",
+      "pergunta": "O que faço com colchões, sofás e roupas molhados?",
+      "termos": ["colchao", "sofa", "estofado", "roupa", "tapete", "travesseiro", "pelucia", "molhado"],
+      "resposta": "Colchões, travesseiros, estofados e bichos de pelúcia que ficaram encharcados com água da enchente geralmente precisam ser descartados, porque acumulam sujeira e micro-organismos. Roupas e tecidos laváveis podem ser lavados com sabão e desinfetados com solução de água sanitária, seguindo o rótulo, e secos ao sol.",
+      "fonte": "Ministério da Saúde"
+    },
+    {
+      "id": "lixo-entulho",
+      "tema": "limpeza",
+      "pergunta": "O que fazer com o lixo e o entulho da enchente?",
+      "termos": ["lixo", "entulho", "residuo", "descarte", "coleta", "queimar", "rato", "escorpiao"],
+      "resposta": "Separe o lixo comum do entulho e aguarde a coleta organizada pela Prefeitura. Não queime lixo nem jogue em córregos. Evite deixar o lixo acumulado perto de casa por muito tempo: ele atrai ratos, escorpiões, baratas e mosquitos.",
+      "fonte": "Plano de Contingência Regional DRS I (SES-SP)"
+    },
+    {
+      "id": "leptospirose",
+      "tema": "saude",
+      "pergunta": "O que é leptospirose e quais são os sintomas?",
+      "termos": ["leptospirose", "rato", "urina", "sintoma", "febre", "panturrilha", "doenca", "enchente"],
+      "resposta": "É uma doença causada pela urina de ratos misturada à água e à lama das enchentes. Os sintomas podem aparecer de 1 a 30 dias depois do contato: febre, dor de cabeça, dor no corpo (principalmente na batata da perna), vômitos e olhos ou pele amarelados. Se tiver esses sintomas, procure uma unidade de saúde e avise que teve contato com água de enchente.",
+      "fonte": "Ministério da Saúde"
+    },
+    {
+      "id": "diarreia-hepatite",
+      "tema": "saude",
+      "pergunta": "Quais doenças podem aparecer depois das enchentes?",
+      "termos": ["doenca", "diarreia", "hepatite", "vomito", "infeccao", "contaminacao", "enchente"],
+      "resposta": "As mais comuns são leptospirose, diarreias e hepatite A (ligadas a água e alimentos contaminados), dengue (pela água parada), tétano (por ferimentos) e acidentes com animais peçonhentos. Beba apenas água tratada, descarte alimentos atingidos, lave as mãos e procure atendimento se tiver febre, diarreia forte ou ferimentos.",
+      "fonte": "Plano de Contingência Regional DRS I (SES-SP)"
+    },
+    {
+      "id": "peconhentos",
+      "tema": "saude",
+      "pergunta": "Apareceu escorpião ou cobra depois da chuva. O que faço?",
+      "termos": ["escorpiao", "cobra", "aranha", "picada", "peconhento", "animal", "mordida"],
+      "resposta": "Depois das enchentes, esses animais procuram abrigo em entulho, móveis e roupas. Sacuda roupas e calçados antes de usar e use luvas ao mexer em entulho. Em caso de picada, lave o local com água e sabão e procure atendimento imediatamente. Não faça torniquete nem corte no local. Emergência: SAMU 192.",
+      "fonte": "Ministério da Saúde"
+    },
+    {
+      "id": "dengue",
+      "tema": "saude",
+      "pergunta": "Como evitar dengue depois das chuvas?",
+      "termos": ["dengue", "mosquito", "aedes", "agua parada", "criadouro", "chikungunya", "zika"],
+      "resposta": "Depois que a água baixar, elimine a água parada em vasos, pneus, garrafas, calhas e entulho. Mantenha caixas d'água e tonéis tampados. Se tiver febre alta, dor no corpo e atrás dos olhos, procure uma unidade de saúde.",
+      "fonte": "Ministério da Saúde"
+    },
+    {
+      "id": "tetano",
+      "tema": "saude",
+      "pergunta": "Me machuquei durante a limpeza. Preciso tomar vacina?",
+      "termos": ["machuquei", "corte", "ferimento", "tetano", "vacina", "prego", "ferida"],
+      "resposta": "Lave o ferimento com água tratada e sabão e procure uma Unidade Básica de Saúde para avaliar o ferimento e verificar se sua vacina contra o tétano está em dia.",
+      "fonte": "Ministério da Saúde"
+    },
+    {
+      "id": "remedio-molhado",
+      "tema": "medicamentos",
+      "pergunta": "Meus remédios molharam na enchente. Posso usar?",
+      "termos": ["remedio", "medicamento", "molhou", "comprimido", "xarope", "usar", "enchente"],
+      "resposta": "Não. Medicamentos que tiveram contato com a água da enchente devem ser descartados, mesmo que a embalagem pareça fechada. Procure a Unidade Básica de Saúde para orientação e para repor os medicamentos de uso contínuo.",
+      "fonte": "Vigilância Sanitária de Poá"
+    },
+    {
+      "id": "remedio-geladeira",
+      "tema": "medicamentos",
+      "pergunta": "Uso insulina ou remédio de geladeira e a energia acabou. E agora?",
+      "termos": ["insulina", "geladeira", "refrigerado", "energia", "vacina", "termolabil", "remedio"],
+      "resposta": "Alguns medicamentos perdem efeito fora da temperatura certa. Procure a Unidade Básica de Saúde ou uma farmácia para saber se o seu medicamento ainda pode ser usado e como conservá-lo até a energia voltar.",
+      "fonte": "Vigilância Sanitária de Poá"
+    },
+    {
+      "id": "abrigo-visa",
+      "tema": "abrigos",
+      "pergunta": "O que a Vigilância Sanitária verifica nos abrigos?",
+      "termos": ["abrigo", "vistoria", "inspecao", "fiscaliza", "verifica", "visa", "vigilancia"],
+      "resposta": "Antes e durante o uso de um local como abrigo, a Vigilância Sanitária verifica:\n• estrutura do prédio, ventilação e número de pessoas;\n• água para beber e para higiene;\n• banheiros e esgoto;\n• cozinha: recebimento, armazenamento, preparo e distribuição dos alimentos e higiene de quem cozinha;\n• doações de alimentos, água e medicamentos;\n• lixo, presença de animais e espaço para separar pessoas doentes.\nO objetivo é evitar surtos de doenças entre as pessoas abrigadas.",
+      "fonte": "Plano de Contingência Regional DRS I (SES-SP); Comunicado CVS-SAMA nº 11/2023"
+    },
+    {
+      "id": "abrigo-problema",
+      "tema": "abrigos",
+      "pergunta": "Estou num abrigo e vi um problema, como falta de água ou comida estragada. O que faço?",
+      "termos": ["abrigo", "problema", "reclamar", "comida estragada", "falta agua", "banheiro", "sujo"],
+      "resposta": "Avise primeiro a coordenação do abrigo ou a equipe de saúde que acompanha o local. Se o problema continuar, comunique a Vigilância Sanitária. Não consuma alimentos com cheiro, cor ou aparência estranhos.",
+      "fonte": "Vigilância Sanitária de Poá"
+    },
+    {
+      "id": "abrigo-higiene",
+      "tema": "abrigos",
+      "pergunta": "Que cuidados de higiene devo ter no abrigo?",
+      "termos": ["higiene", "abrigo", "lavar maos", "banheiro", "escova", "compartilhar", "toalha"],
+      "resposta": "Lave as mãos com água e sabão antes de comer e depois de usar o banheiro. Não compartilhe escova de dentes, toalhas, copos e talheres. Avise a equipe de saúde se você ou alguém da família tiver febre, diarreia, vômitos ou manchas no corpo.",
+      "fonte": "Ministério da Saúde"
+    },
+    {
+      "id": "abrigo-animais",
+      "tema": "abrigos",
+      "pergunta": "Posso levar meu animal de estimação para o abrigo?",
+      "termos": ["animal", "cachorro", "gato", "pet", "estimacao", "abrigo", "levar"],
+      "resposta": "Depende da organização de cada abrigo. Quando os animais são aceitos, eles devem ficar em área separada das pessoas e da cozinha. Pergunte à coordenação do abrigo ou à Defesa Civil.",
+      "fonte": "Comunicado CVS-SAMA nº 11/2023 (separação de animais em abrigos)"
+    },
+    {
+      "id": "doar-alimentos",
+      "tema": "doacoes",
+      "pergunta": "Que alimentos posso doar?",
+      "termos": ["doar", "doacao", "alimento", "cesta", "arrecadacao", "comida", "ajudar"],
+      "resposta": "Prefira alimentos não perecíveis, dentro do prazo de validade e com embalagem fechada e sem danos, e água mineral lacrada. Não doe comida caseira, alimentos abertos, vencidos ou que precisam de geladeira, a menos que o ponto de arrecadação peça. Entregue nos pontos oficiais divulgados pela Prefeitura.",
+      "fonte": "Anvisa, Guia nº 57 (doação segura de alimentos)"
+    },
+    {
+      "id": "doar-remedios",
+      "tema": "doacoes",
+      "pergunta": "Posso doar medicamentos?",
+      "termos": ["doar", "remedio", "medicamento", "doacao", "farmacia", "sobra"],
+      "resposta": "Só doe medicamentos se o ponto oficial de arrecadação estiver recebendo. Nunca doe medicamentos abertos, vencidos, sem bula ou que ficaram mal armazenados. A Vigilância Sanitária faz a triagem das doações e descarta o que estiver impróprio.",
+      "fonte": "Plano de Contingência Regional DRS I (SES-SP)"
+    },
+    {
+      "id": "voluntario-limpeza",
+      "tema": "trabalho",
+      "pergunta": "Sou voluntário na limpeza. Como me proteger?",
+      "termos": ["voluntario", "limpeza", "trabalhador", "protecao", "epi", "luva", "bota"],
+      "resposta": "Use botas, luvas e roupas que cubram braços e pernas. Verifique se sua vacina contra o tétano está em dia. Lave bem as mãos e evite levar as mãos à boca e aos olhos. Se se ferir ou tiver febre nos dias seguintes, procure uma unidade de saúde e avise que trabalhou em área de enchente.",
+      "fonte": "Plano de Contingência Regional DRS I (SES-SP), eixo Saúde do Trabalhador"
+    },
+    {
+      "id": "voluntario-cozinha",
+      "tema": "trabalho",
+      "pergunta": "Vou ajudar na cozinha de um abrigo. Que cuidados devo ter?",
+      "termos": ["cozinha", "voluntario", "cozinhar", "manipular", "alimento", "abrigo", "marmita", "refeicao"],
+      "resposta": "• Lave as mãos com frequência e sempre antes de mexer nos alimentos.\n• Use cabelo preso e protegido, sem anéis, pulseiras ou relógio.\n• Não trabalhe na cozinha se estiver com diarreia, vômitos, febre ou feridas nas mãos.\n• Use apenas água tratada.\n• Mantenha alimentos crus separados dos prontos.\n• Sirva a comida quente logo depois de pronta e não reaproveite sobras que ficaram fora da geladeira.\n• Siga as orientações da Vigilância Sanitária durante as inspeções.",
+      "fonte": "Portaria CVS 5/2013; RDC Anvisa 216/2004"
+    },
+    {
+      "id": "comercio-reabrir",
+      "tema": "estabelecimentos",
+      "pergunta": "Meu comércio de alimentos foi atingido pela enchente. Quando posso reabrir?",
+      "termos": ["comercio", "loja", "restaurante", "mercado", "padaria", "reabrir", "estabelecimento", "atingido"],
+      "resposta": "Antes de reabrir: descarte todos os alimentos e embalagens atingidos pela água, limpe e desinfete o local e os equipamentos, confira se a água está própria para uso e se a energia e a refrigeração funcionam. Procure a Vigilância Sanitária para orientação; após a emergência, a VISA pode inspecionar o local antes da reabertura.",
+      "fonte": "Plano de Contingência Regional DRS I (SES-SP)"
+    },
+    {
+      "id": "servico-saude",
+      "tema": "estabelecimentos",
+      "pergunta": "Tenho clínica, farmácia ou casa de repouso em área de risco. O que fazer?",
+      "termos": ["clinica", "farmacia", "ilpi", "casa de repouso", "creche", "servico", "risco", "plano"],
+      "resposta": "Tenha um plano de contingência para falta de água e energia, guarda de medicamentos que precisam de geladeira e remoção de pessoas, se necessário. Em caso de dano, comunique a Vigilância Sanitária antes de retomar o atendimento.",
+      "fonte": "Plano de Contingência Regional DRS I (SES-SP)"
+    },
+    {
+      "id": "emergencia",
+      "tema": "contato",
+      "pergunta": "Quais são os telefones de emergência?",
+      "termos": ["telefone", "emergencia", "socorro", "ligar", "numero", "defesa civil", "bombeiro", "samu"],
+      "resposta": "• Defesa Civil: 199\n• Corpo de Bombeiros: 193\n• SAMU: 192\n• Polícia Militar: 190\nPara receber alertas de chuva da Defesa Civil por SMS, envie o seu CEP para o número 40199.",
+      "fonte": "Defesa Civil; serviços nacionais de emergência"
+    },
+    {
+      "id": "alertas-sms",
+      "tema": "contato",
+      "pergunta": "Como recebo alertas de chuva forte?",
+      "termos": ["alerta", "sms", "aviso", "chuva", "40199", "cep", "receber"],
+      "resposta": "Envie um SMS com o seu CEP para o número 40199. A Defesa Civil manda avisos gratuitos de chuva forte e risco para a sua região.",
+      "fonte": "Defesa Civil"
+    },
+    {
+      "id": "denuncia",
+      "tema": "contato",
+      "pergunta": "Como faço uma denúncia ou falo com a Vigilância Sanitária de Poá?",
+      "termos": ["denuncia", "denunciar", "contato", "visa", "vigilancia", "telefone", "endereco", "reclamacao"],
+      "resposta": "Vigilância Sanitária de Poá: [telefone a confirmar] · [endereço a confirmar] · [e-mail a confirmar]. Informe o endereço do local, o que você viu e, se possível, fotos.",
+      "fonte": "Vigilância Sanitária de Poá"
+    },
+    {
+      "id": "o-que-e-visa",
+      "tema": "contato",
+      "pergunta": "O que a Vigilância Sanitária faz nas enchentes?",
+      "termos": ["visa", "vigilancia sanitaria", "faz", "papel", "funcao", "plano", "responsabilidade"],
+      "resposta": "A Vigilância Sanitária atua para eliminar, diminuir ou prevenir riscos à saúde. Nas chuvas fortes, ela inspeciona abrigos e suas cozinhas, fiscaliza a qualidade da água e os caminhões-pipa, faz a triagem de doações, fiscaliza alimentos e medicamentos, orienta a limpeza pós-enchente e libera estabelecimentos atingidos para reabrir. Veja a página \"Plano de contingência\" para saber o que é feito em cada fase.",
+      "fonte": "Plano de Contingência Regional DRS I (SES-SP)"
+    },
+    {
+      "id": "fases-plano",
+      "tema": "contato",
+      "pergunta": "O que significam mobilização, alerta, emergência e desmobilização?",
+      "termos": ["fase", "mobilizacao", "alerta", "emergencia", "desmobilizacao", "cenario", "plano"],
+      "resposta": "São as fases do plano de contingência:\n• Mobilização: preparação antes das chuvas.\n• Alerta: aumenta o risco de impacto; as equipes ficam de prontidão.\n• Emergência: há danos e a resposta é coordenada entre os órgãos.\n• Desmobilização/Recuperação: o risco diminui, os serviços são retomados e a resposta é avaliada.",
+      "fonte": "Matriz de Responsabilidades, SES-SP"
+    }
+  ]
+}

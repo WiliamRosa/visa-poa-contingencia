@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Chuvas e Saúde · Poá</title>
+  <meta name="description" content="Orientações da Vigilância Sanitária de Poá para chuvas intensas, enchentes e alagamentos: água, alimentos, limpeza, abrigos e doações.">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <a class="skip" href="#chat">Ir para o chat de dúvidas</a>
+
+  <div class="draft" role="note">
+    Versão de rascunho. O conteúdo está em validação pela Vigilância Sanitária de Poá e ainda não é um canal oficial.
+  </div>
+
+  <header class="hero">
+    <div class="wrap">
+      <p class="eyebrow">Vigilância Sanitária · Poá · Alto Tietê</p>
+      <h1>Chuvas e saúde</h1>
+      <p class="lead">Orientações para proteger sua família antes, durante e depois de enchentes e alagamentos.</p>
+      <nav class="nav" aria-label="Seções">
+        <a href="#chat">Tire sua dúvida</a>
+        <a href="#temas">Perguntas por tema</a>
+        <a href="plano.html">Plano de contingência</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="emergency" aria-labelledby="emerg-title">
+      <div class="wrap">
+        <h2 id="emerg-title">Em perigo? Ligue agora</h2>
+        <ul class="phones">
+          <li><a href="tel:199"><strong>199</strong><span>Defesa Civil</span></a></li>
+          <li><a href="tel:193"><strong>193</strong><span>Bombeiros</span></a></li>
+          <li><a href="tel:192"><strong>192</strong><span>SAMU</span></a></li>
+          <li><a href="tel:190"><strong>190</strong><span>Polícia Militar</span></a></li>
+        </ul>
+        <p class="sms">Receba alertas de chuva: envie seu <strong>CEP</strong> por SMS para <strong>40199</strong>.</p>
+      </div>
+    </section>
+
+    <section id="chat" class="chat-section" aria-labelledby="chat-title">
+      <div class="wrap">
+        <h2 id="chat-title">Tire sua dúvida</h2>
+        <p class="muted">As respostas vêm da base de orientações da Vigilância Sanitária, sempre com a fonte. O chat não substitui atendimento médico.</p>
+        <div class="chat">
+          <div id="messages" class="messages" aria-live="polite"></div>
+          <div id="suggestions" class="chips" aria-label="Perguntas sugeridas"></div>
+          <form id="ask" class="ask" autocomplete="off">
+            <label for="question" class="sr-only">Sua pergunta</label>
+            <input id="question" name="question" type="text" placeholder="Ex.: como limpar a caixa d'água?" maxlength="200" required>
+            <button type="submit">Perguntar</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section id="temas" class="topics" aria-labelledby="temas-title">
+      <div class="wrap">
+        <h2 id="temas-title">Perguntas por tema</h2>
+        <div id="faq" class="faq"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap">
+      <p>Material de apoio ao Plano de Contingência para Eventos Climáticos do Alto Tietê (GVE/GVS Mogi das Cruzes), eixo Vigilância Sanitária.</p>
+      <p>Fontes: Ministério da Saúde, Anvisa, Centro de Vigilância Sanitária (CVS-SP) e Plano de Contingência Regional do DRS I. Cada resposta indica sua fonte.</p>
+      <p id="kb-version" class="muted"></p>
+    </div>
+  </footer>
+
+  <script src="assets/search.js"></script>
+  <script src="assets/app.js"></script>
+</body>
+</html>

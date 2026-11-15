@@ -1,0 +1,5 @@
+# Internal working files: the filled SES/SP spreadsheet is not published
+matriz/
+__pycache__/
+*.pyc
+.DS_Store

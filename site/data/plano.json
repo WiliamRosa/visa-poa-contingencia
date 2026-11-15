@@ -1,0 +1,179 @@
+{
+  "responsavel": "Vigilância Sanitária de Poá",
+  "cenarios": [
+    {
+      "cenario": "Mobilização",
+      "descricao": "Preparação antes das chuvas: cadastros, vistorias prévias, capacitação e materiais.",
+      "acoes": [
+        {
+          "acao": "Cadastrar e manter atualizada a lista de serviços de saúde e de interesse à saúde (ILPI, creches, clínicas de diálise, farmácias, indústrias de alimentos) localizados em áreas de risco de inundação, alagamento ou deslizamento.",
+          "parceiros": "Defesa Civil municipal (mapa de áreas de risco); Atenção Básica",
+          "frequencia": "Sob Demanda"
+        },
+        {
+          "acao": "Cadastrar previamente e vistoriar os imóveis indicados como abrigos e unidades de apoio (escolas, ginásios, centros comunitários), avaliando estrutura física, água, sanitários, cozinha, ventilação, área de doações e acessibilidade, com emissão de parecer de aptidão.",
+          "parceiros": "Assistência Social; Defesa Civil; Educação; Esportes",
+          "frequencia": "Sob Demanda"
+        },
+        {
+          "acao": "Elaborar e aprovar roteiro padronizado de inspeção sanitária de abrigos temporários, contemplando estrutura, água, esgoto, resíduos, cozinha e manipulação de alimentos, doações, medicamentos, animais e saúde do trabalhador.",
+          "parceiros": "Vigilância Epidemiológica; Assistência Social; CEREST de referência",
+          "frequencia": "Sob Demanda"
+        },
+        {
+          "acao": "Inspecionar de forma preventiva os sistemas e soluções alternativas coletivas de abastecimento de água e cadastrar os transportadores de água para consumo humano (caminhões-pipa).",
+          "parceiros": "Concessionária de abastecimento de água; Vigilância Laboratorial (IAL)",
+          "frequencia": "Sob Demanda"
+        },
+        {
+          "acao": "Identificar fontes potenciais de contaminação química em áreas vulneráveis a inundações (postos de combustível, indústrias, depósitos de produtos químicos e agrotóxicos).",
+          "parceiros": "Meio Ambiente municipal; CETESB; Defesa Civil",
+          "frequencia": "Sob Demanda"
+        },
+        {
+          "acao": "Definir equipe de resposta, escala de sobreaviso e cadeia de comando da VISA, e informar os contatos de plantão ao GVS e à Defesa Civil.",
+          "parceiros": "Gestão/Secretaria de Saúde",
+          "frequencia": "Mensal"
+        },
+        {
+          "acao": "Capacitar a equipe da VISA e os responsáveis pelas cozinhas dos abrigos (servidores e voluntários) em boas práticas de manipulação de alimentos, higienização e uso correto do hipoclorito de sódio.",
+          "parceiros": "Assistência Social; Fundo Social de Solidariedade; Educação (merendeiras)",
+          "frequencia": "Sob Demanda"
+        },
+        {
+          "acao": "Montar e conferir o kit de resposta da VISA: EPIs, termômetros, kit de medição de cloro residual, frascos e caixas térmicas para coleta de água, formulários e termos de interdição.",
+          "parceiros": "Gestão/Secretaria de Saúde; Almoxarifado",
+          "frequencia": "Mensal"
+        },
+        {
+          "acao": "Elaborar materiais de comunicação de risco para a população sobre água, alimentos, limpeza pós-enchente e uso do hipoclorito 2,5%, incluindo canal digital de dúvidas.",
+          "parceiros": "Comunicação da Prefeitura; Vigilância Epidemiológica",
+          "frequencia": "Sob Demanda"
+        },
+        {
+          "acao": "Pactuar protocolo sanitário de gestão de doações (triagem, armazenamento, distribuição e descarte de alimentos, água, medicamentos, roupas e colchões), vedando a comercialização de doações.",
+          "parceiros": "Assistência Social; Fundo Social de Solidariedade; Assistência Farmacêutica",
+          "frequencia": "Sob Demanda"
+        }
+      ]
+    },
+    {
+      "cenario": "Alerta",
+      "descricao": "Risco de impacto aumentando: equipes de prontidão e orientação reforçada.",
+      "acoes": [
+        {
+          "acao": "Ativar a escala de sobreaviso e confirmar contatos de plantão e cadeia de comando com GVS, Defesa Civil e Assistência Social.",
+          "parceiros": "Defesa Civil",
+          "frequencia": "Sob Demanda"
+        },
+        {
+          "acao": "Revisitar os abrigos previamente cadastrados para confirmar condições de uso (água, sanitários, cozinha, limpeza) junto à Assistência Social.",
+          "parceiros": "Assistência Social; Defesa Civil",
+          "frequencia": "Sob Demanda"
+        },
+        {
+          "acao": "Intensificar a fiscalização de alimentos perecíveis em comércios e feiras nas áreas de risco iminente, orientando sobre conservação em caso de falta de energia e descarte.",
+          "parceiros": "Fiscalização de posturas; Abastecimento",
+          "frequencia": "Diária"
+        },
+        {
+          "acao": "Orientar serviços de interesse à saúde em áreas de risco (ILPI, clínicas de diálise, creches) a acionar seus planos de contingência para água, energia e medicamentos termolábeis.",
+          "parceiros": "Atenção Básica; Assistência Social",
+          "frequencia": "Sob Demanda"
+        },
+        {
+          "acao": "Emitir alertas à população sobre cuidados com água, alimentos, higiene e contato com água de enchente (risco de leptospirose).",
+          "parceiros": "Comunicação da Prefeitura; Vigilância Epidemiológica",
+          "frequencia": "Diária"
+        }
+      ]
+    },
+    {
+      "cenario": "Emergência",
+      "descricao": "Há danos: inspeções nos abrigos, água, alimentos, doações e serviços atingidos.",
+      "acoes": [
+        {
+          "acao": "Inspecionar cada abrigo ativado em até 24 horas da abertura e acompanhá-lo enquanto estiver ativo: estrutura, lotação, ventilação, proporção de sanitários, água, resíduos, presença de animais e área para isolamento de casos suspeitos.",
+          "parceiros": "Assistência Social; Vigilância Epidemiológica; Defesa Civil",
+          "frequencia": "Diária"
+        },
+        {
+          "acao": "Inspecionar a cozinha e o processo de alimentação de cada abrigo: recebimento, armazenamento, preparo, cocção, distribuição, controle de temperatura, higiene dos manipuladores e destino das sobras.",
+          "parceiros": "Assistência Social; Fundo Social de Solidariedade",
+          "frequencia": "Diária"
+        },
+        {
+          "acao": "Realizar a triagem sanitária das doações de alimentos, água e medicamentos nos pontos de arrecadação e abrigos, com descarte e registro de itens impróprios, vencidos ou sem procedência.",
+          "parceiros": "Assistência Social; Fundo Social de Solidariedade; Assistência Farmacêutica",
+          "frequencia": "Diária"
+        },
+        {
+          "acao": "Monitorar a qualidade da água nos abrigos, soluções alternativas e caminhões-pipa (cloro residual e turbidez) e coletar amostras para análise laboratorial, com barreira sanitária para os transportadores de água.",
+          "parceiros": "Vigilância Laboratorial (IAL); Concessionária de abastecimento",
+          "frequencia": "Diária"
+        },
+        {
+          "acao": "Interditar ou restringir fontes de água contaminadas e inutilizar alimentos e produtos atingidos pela água da enchente em estabelecimentos comerciais.",
+          "parceiros": "Defesa Civil; Fiscalização de posturas",
+          "frequencia": "Sob Demanda"
+        },
+        {
+          "acao": "Inspecionar serviços de saúde e de interesse à saúde atingidos (UBS, farmácias, ILPI, creches, laboratórios) e definir condições de funcionamento.",
+          "parceiros": "Atenção Básica; Assistência Farmacêutica",
+          "frequencia": "Sob Demanda"
+        },
+        {
+          "acao": "Fiscalizar medicamentos e produtos para saúde doados ou comercializados irregularmente durante a crise (falsificados, vencidos ou danificados pela água).",
+          "parceiros": "Assistência Farmacêutica",
+          "frequencia": "Sob Demanda"
+        },
+        {
+          "acao": "Orientar a população e os estabelecimentos sobre limpeza e desinfecção de casas, caixas d'água e superfícies atingidas, com hipoclorito de sódio 2,5% (água sanitária registrada na Anvisa), e sobre descarte de alimentos atingidos.",
+          "parceiros": "Comunicação da Prefeitura; Atenção Básica (ACS)",
+          "frequencia": "Diária"
+        },
+        {
+          "acao": "Verificar o uso de EPIs por trabalhadores e voluntários em limpeza, resgate e abrigos, e encaminhar a notificação de acidentes de trabalho.",
+          "parceiros": "CEREST de referência; Defesa Civil",
+          "frequencia": "Diária"
+        },
+        {
+          "acao": "Avaliar riscos químicos em áreas alagadas, identificando vazamentos de produtos perigosos, e acionar a CETESB quando necessário.",
+          "parceiros": "CETESB; Defesa Civil; Meio Ambiente municipal",
+          "frequencia": "Sob Demanda"
+        },
+        {
+          "acao": "Fiscalizar as condições sanitárias dos serviços funerários e do transporte de corpos em caso de aumento de demanda, prevenindo riscos biológicos aos trabalhadores.",
+          "parceiros": "Serviço funerário municipal",
+          "frequencia": "Sob Demanda"
+        },
+        {
+          "acao": "Alimentar a sala de situação/COE com indicadores diários da VISA: abrigos inspecionados, não conformidades, interdições, doações descartadas e amostras de água.",
+          "parceiros": "Gestão/COE municipal",
+          "frequencia": "Diária"
+        }
+      ]
+    },
+    {
+      "cenario": "Desmobilização/Recuperação",
+      "descricao": "Risco em queda: liberação de estabelecimentos, desativação de abrigos e avaliação.",
+      "acoes": [
+        {
+          "acao": "Inspecionar estabelecimentos de alimentos e serviços de saúde atingidos antes da reabertura, verificando limpeza, desinfecção, potabilidade da água e descarte de produtos.",
+          "parceiros": "Fiscalização de posturas; Atenção Básica",
+          "frequencia": "Sob Demanda"
+        },
+        {
+          "acao": "Realizar vistoria final na desativação de cada abrigo, incluindo escolas, exigindo limpeza e desinfecção antes do retorno das atividades.",
+          "parceiros": "Assistência Social; Educação",
+          "frequencia": "Sob Demanda"
+        },
+        {
+          "acao": "Elaborar relatório pós-evento com ações, interdições e lições aprendidas, e atualizar esta matriz, o cadastro de abrigos e o roteiro de inspeção.",
+          "parceiros": "Gestão/Secretaria de Saúde; Defesa Civil",
+          "frequencia": "Sob Demanda"
+        }
+      ]
+    }
+  ]
+}
